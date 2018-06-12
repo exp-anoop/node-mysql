@@ -24,11 +24,11 @@ ReST API startup project (Node + MySql).
 
 * Clone the repo 
 ```sh
-git clone https://github.com/gitexperion/VendorXchangeAPI.git vendorXchange-api
+git clone https://github.com/exp-anoop/node-mysql.git node-mysql-api
 ```
 * Install dependencies
 ```sh
-cd vendorXchange-api && yarn install
+cd node-mysql-api && yarn install
 ```
 * For starting the application use the following script. (will check the code quality before starting the application).
 ```sh

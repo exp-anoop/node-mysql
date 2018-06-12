@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "description": "Explore API",
   "main": "server.js",
-  "repository": "https://github.com/gitexperion/Explore.git",
+  "repository": "https://github.com/exp-anoop/node-mysql.git",
   "author": "Anoop P R <anoop.pr@experionglobal.com>",
   "license": "MIT",
   "scripts": {
