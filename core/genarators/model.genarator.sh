@@ -2,11 +2,11 @@
 
 ## DB Configuration
 ## DB Configuration
-HOST=localhost
-DB_NAME=node_mysql_template
-USERNAME=root
-PASSWORD=heyitsme
-PORT=3306
+HOST=192.168.1.7
+DB_NAME=Experion
+USERNAME=revenuedev
+PASSWORD='dev@123'
+PORT=2433
 
 OUT=./models
 CONFIG=./core/genarators/model.genarator.json
@@ -21,4 +21,4 @@ if [ ! -d $OUT ]; then
 	mkdir -p $OUT;
 fi
 
-sequelize-auto -o $OUT -d $DB_NAME -h $HOST -u $USERNAME -p $PORT -x $PASSWORD -e mysql --config $CONFIG
+sequelize-auto -o $OUT -d $DB_NAME -h $HOST -u $USERNAME -p $PORT -x $PASSWORD -e mssql --config $CONFIG
